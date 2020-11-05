@@ -1,0 +1,177 @@
+/*
+Theme Name: TorontoTravel
+Theme URI: 
+Author: Anderson Romero
+Author URI: https://anderson-romero-web.web.app/
+Description: Tortonto Travel para viajes y visitas turisicas.
+Version: 1.0
+Licence: GNU General Public licence or later
+Tags: html5, css3, ciudad, bootstrap, jquery
+Text Domain: toronto
+*/
+
+body{
+    font-family: 'Prompt', sans-serif;
+}
+
+.bg-danger{
+    background-color: #a12523!important;
+}
+
+h1{
+    color: #a12523!important;
+}
+
+
+/* Menu Header */
+
+.navbar-nav .nav-link{
+    color: white!important;
+    text-align: center;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+ul{
+    list-style-type: none; 
+}
+
+footer .navbar a {
+    color: black;
+    text-decoration: none;
+    background-color: transparent;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+header nav ul li.current_page_item {
+	border-bottom: 2px solid #fff;
+	padding-bottom: 5px;
+}
+
+/* Menu Header */
+
+.linea-roja{
+    border-top: 2px solid #a12523;
+}
+
+
+aside .textwidget {
+	font-size: 20px;
+	line-height: 34px;
+	color: #767676;
+	background-image: url(img/svg_comilla.svg);
+	background-repeat: no-repeat;
+	background-position: left top ;
+	padding-left: 86px;
+	font-style: italic;
+
+}
+aside .textwidget span {
+	display: block;
+	text-align: right;
+	font-style: normal;
+}
+
+.blog ul{
+    padding-left: 0px;
+    margin-bottom: 0px;
+    
+}
+
+.blog a{
+ color: white;
+}
+
+/* Contacto */
+
+.wp-block-contact-form-7-contact-form-selector  h3 {
+	text-align: center;
+	font-size:20px;
+	color:#a00622;
+}
+.wp-block-contact-form-7-contact-form-selector  .wpcf7 {
+	background-color: #f2f2f2;
+	padding: 40px;
+	width:60%;
+	border-radius: 20px;
+	margin: 0 auto;
+	-webkit-box-shadow: 00px 20px 20px 0 rgba(0,0,0,.3);
+	box-shadow: 00px 20px 20px 0 rgba(0,0,0,.3);
+}
+.wp-block-contact-form-7-contact-form-selector  .wpcf7 p {
+	font-size: 12px;
+	font-weight: bold;
+	color: #a00622;
+    margin-bottom: 15px;
+    width:100%;
+}
+
+.wp-block-contact-form-7-contact-form-selector label{
+    width: 100%;
+    font-size: 20px;
+}
+
+@media (max-width: 600px) {
+   .wp-block-contact-form-7-contact-form-selector .wpcf7 {
+    background-color: #f2f2f2;
+    padding: 40px;
+    width: 100%;
+    border-radius: 20px;
+    margin: 0 auto;
+    -webkit-box-shadow: 0px 20px 20px 0 rgba(0,0,0,.3);
+    box-shadow: 0px 20px 20px 0 rgba(0,0,0,.3);
+}
+  }
+
+.wp-block-contact-form-7-contact-form-selector  .wpcf7 input,
+.wp-block-contact-form-7-contact-form-selector  .wpcf7 textarea {
+	height: 32px;
+	border: 1px solid #888;
+	border-radius: 8px;
+	width:100%;
+}
+.wp-block-contact-form-7-contact-form-selector  .wpcf7 textarea {
+	height: 200px;
+}
+
+.wp-block-contact-form-7-contact-form-selector  .wpcf7 input[type="submit"] {
+	background-color: #a00622;
+	font-weight: bold;
+	font-size: 20px;
+	color: #fff;
+	border-radius: 5px;
+	width: auto;
+	padding: 0 20px;
+}
+
+/* Contacto */
+
+.cards ul{
+    margin-bottom: 0px;
+    padding-left: 0px;
+}
+
+.cards li{
+    text-align: center;
+    padding: 10px;
+}
+
+.cards a{
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #a12523;
+    padding: 6px 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.cards a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a.active{
+    background: #a12523!important;
+}
